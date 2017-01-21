@@ -8,9 +8,9 @@
     <header class="site-header">
       <div class="container">
         <div class="toolbar">
-          <div class="toolbar-logo">
+          <a class="toolbar-logo" href="index.html">
             Техномарт
-          </div>
+          </a>
           <form class="search-form">
             <label for="search">
               Поиск:
@@ -21,7 +21,7 @@
             Закладки: 0
           </div>
           <div class="toolbar-cart">
-            Корзина: 0
+            Корзина: 10
           </div>
           <a href="#" class="checkout-btn">
             Оформить заказ
@@ -94,7 +94,134 @@
       </div>      
     </header>
     <main class="container">
-      
+      <nav class="breadcrumbs">
+        <ul>
+          <li>
+            <a class="breadcrumbs-home" href="#">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Каталог
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Инструмент
+            </a>
+          </li>
+          <li>
+            <a>
+              Перфораторы
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <h2 class="catalog-header">
+        Перфораторы
+      </h2>
+      <section class="catalog">
+        <div class="catalog-searchbar">
+          <div class="searchbar-filter">
+            Фильтр
+          </div>
+          <div class="searchbar-sort">
+            <span>
+              Сортировка:
+            </span>
+            <ul>
+              <li>
+                <a class="sort-option selected-option" href="#">
+                  По цене
+                </a>
+              </li>
+              <li>
+                <a class="sort-option" href="#">
+                  По типу
+                </a>
+              </li>
+              <li>
+                <a class="sort-option" href="#">
+                  По функционалу
+                </a>
+              </li>
+            </ul>
+            <a class="sort-asc" href="#">
+            </a>
+            <a class="sort-desc" href="#">
+            </a>      
+          </div>  
+        </div>  
+        <div class="catalog-filter">
+          <form>
+            <label class="legend-label" for="price">
+              Цена:
+            </label>
+            <input id="price" type="range">
+            <span class="price-value">
+              0
+            </span>
+            <span class="price-value">
+              30000
+            </span>
+            <fieldset>
+              <legend>
+                Производители:
+              </legend>
+              <p>
+                <input id="bosch" type="checkbox">
+                <label for="bosch">
+                  BOSCH
+                </label>
+              </p>
+              <p>
+                <input id="interskol" type="checkbox">
+                <label for="interskol">
+                  Интерскол
+                </label>
+              </p>
+              <p>
+                <input id="makita" type="checkbox">
+                <label for="makita">
+                  Makita
+                </label>
+              </p>
+              <p>
+                <input id="dewalt" type="checkbox">
+                <label for="dewalt">
+                  DeWALT
+                </label>
+              </p>
+              <p>
+                <input id="hitachi" type="checkbox">
+                <label for="hitachi">
+                  Hitachi
+                </label>
+              </p>  
+            </fieldset>
+            <fieldset>
+              <legend>
+                Питание:
+              </legend>
+              <p>
+                <input id="accum" type="radio" name="type">
+                <label for="accum">
+                  Аккумуляторное
+                </label>
+              </p>
+              <p>
+                <input id="acdc" type="radio" name="type">
+                <label for="acdc">
+                  Сетевое
+                </label>
+              </p>  
+            </fieldset>  
+            <input type="submit" value="Показать">    
+          </form>   
+        </div>
+        <div class="catalog-items-list">
+        </div>    
+      </section>      
     </main>  
     <footer class="site-footer">
       <div class="container">
