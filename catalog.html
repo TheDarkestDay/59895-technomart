@@ -161,67 +161,71 @@
         </div>  
         <div class="catalog-filter">
           <form>
-            <label class="legend-label" for="price">
-              Цена:
-            </label>
-            <input id="price" type="range">
-            <span class="price-value">
-              0
-            </span>
-            <span class="price-value">
-              30000
-            </span>
+            <fieldset>
+              <legend>
+                Цена:
+              </legend>  
+              <input id="price" type="range">
+              <span class="price-value">
+                0
+              </span>
+              <span class="price-value">
+                30000
+              </span>
+            </fieldset>  
             <fieldset>
               <legend>
                 Производители:
               </legend>
-              <p>
+              <li>
                 <input id="bosch" type="checkbox">
                 <label for="bosch">
                   BOSCH
                 </label>
-              </p>
-              <p>
+              </li>
+              <li>
                 <input id="interskol" type="checkbox">
                 <label for="interskol">
                   Интерскол
                 </label>
-              </p>
-              <p>
+              </li>
+              <li>
                 <input id="makita" type="checkbox">
                 <label for="makita">
                   Makita
                 </label>
-              </p>
-              <p>
+              </li>
+              <li>
                 <input id="dewalt" type="checkbox">
                 <label for="dewalt">
                   DeWALT
                 </label>
-              </p>
-              <p>
+              </li>
+              <li>
                 <input id="hitachi" type="checkbox">
                 <label for="hitachi">
                   Hitachi
                 </label>
-              </p>  
+              </li>  
             </fieldset>
             <fieldset>
               <legend>
                 Питание:
               </legend>
-              <p>
-                <input id="accum" type="radio" name="type">
-                <label for="accum">
-                  Аккумуляторное
-                </label>
-              </p>
-              <p>
-                <input id="acdc" type="radio" name="type">
-                <label for="acdc">
-                  Сетевое
-                </label>
-              </p>  
+              <ul>
+                <li>
+                  <input id="accum" type="radio" name="type">
+                  <label for="accum">
+                    Аккумуляторное
+                  </label>
+                </li>
+                <li>
+                  <input id="acdc" type="radio" name="type">
+                  <label for="acdc">
+                    Сетевое
+                  </label>
+                </li>
+              </ul>    
             </fieldset>  
             <button type="submit">
               Показать
