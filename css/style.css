@@ -1,0 +1,25 @@
+
+h2 {
+  font-size: 30px;
+  font-family: 'Cuprum', sans-serif;
+  line-height: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: normal;
+}
