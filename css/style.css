@@ -1,3 +1,14 @@
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+ul {
+  -webkit-padding-start: 0;
+}
 
 h2 {
   font-size: 30px;
@@ -22,4 +33,204 @@ body {
   line-height: 24px;
   color: #000000;
   font-weight: normal;
+}
+
+.container {
+  width: 960px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.toolbar-logo {
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+}
+
+.search-form {
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+}
+
+.toolbar-bookmarks {
+  width: 141px;
+  float: left;
+  margin-right: 20px;
+}
+
+.toolbar-basket {
+  width: 140px;
+  float: left;
+}
+
+.checkout-btn {
+  width: 150px;
+  float: right;
+}
+
+.toolbar {
+  margin-bottom: 50px;
+}
+
+.header-description {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+
+.header-contacts {
+  width: 301px;
+  float:left;
+}
+
+.user-buttons {
+  width: 300px;
+  float:right;
+}
+
+.header-info {
+  margin-bottom: 43px;
+}
+
+.main-nav {
+  margin-bottom: 60px;
+}
+
+.promotions {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.promotions-block {
+  width: 300px;
+  float: left;
+}
+
+.promotions-slider {
+  width: 621px;
+  float: left;
+}
+
+.featured-goods-list {
+  font-size: 0;
+  margin-bottom: 24px;
+  margin-top: 20px;
+}
+
+.featured-goods-item {
+  width: 220px;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+.featured-goods-item:nth-child(4) {
+  margin-right: 0;
+}
+
+.featured-companies-item {
+  display: inline-block;
+  width: 220px;
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+.featured-companies-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.featured-companies-list {
+  font-size: 0;
+  margin-bottom: 90px;
+  margin-top: 20px;
+}
+
+.services-slider > ul {
+  width: 240px;
+  float: left;
+  margin-right: 80px;
+}
+
+.services-slide {
+  width: 620px;
+}
+
+.about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about-us {
+  width: 560px;
+  float: left;
+}
+
+.contacts {
+  width: 320px;
+  float: right;
+}
+
+.footer-logo {
+  width: 220px;
+  float: left;
+  margin-right: 160px;
+}
+
+.footer-upper-nav {
+  width: 550px;
+  float: right;
+}
+
+.footer-contacts {
+  width: 380px;
+  float: left;
+  margin-right: 20px;
+}
+
+.footer-lower-nav {
+  width: 540px;
+  float: right;
+}
+
+.contacts-copyright {
+  width: 300px;
+  float: left;
+  margin-right: 90px;
+}
+
+.social-links {
+  width: 150px;
+  float: left;
+  margin-right: 100px;
+}
+
+.feedback-link {
+  width: 140px;
+  float: left;
+  margin-right: 20px;
+}
+
+.authors {
+  width: 140px;
+  float: right;
+}
+
+
+.modal-window {
+  display: none;
 }
