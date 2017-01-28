@@ -234,3 +234,36 @@ body {
 .modal-window {
   display: none;
 }
+
+.catalog-filter {
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+}
+
+.catalog-items-list {
+  width: 700px;
+  float: right;
+  font-size: 0;
+}
+
+.catalog-item {
+  width: 220px;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.catalog-nav {
+  float: right;
+  width: 700px;
+}
+
+.about-goods {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}

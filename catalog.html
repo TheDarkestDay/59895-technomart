@@ -7,30 +7,28 @@
   </head>
   <body>
     <header class="site-header">
+      <div class="toolbar container">
+        <a class="toolbar-logo" href="index.html">
+          Техномарт
+        </a>
+        <form class="search-form">
+          <label for="search">
+            Поиск:
+          </label>  
+          <input id="search" type="search">
+        </form>
+        <a href="#" class="toolbar-bookmarks">
+          Закладки: 0
+        </a>
+        <a href="#" class="toolbar-cart cart-with-items">
+          Корзина: 10
+        </a>
+        <a href="#" class="checkout-btn">
+          Оформить заказ
+        </a>          
+      </div>  
       <div class="container">
-        <div class="toolbar">
-          <a class="toolbar-logo" href="index.html">
-            Техномарт
-          </a>
-          <form class="search-form">
-            <label for="search">
-              Поиск:
-            </label>  
-            <input id="search" type="search">
-          </form>
-          <a href="#" class="toolbar-bookmarks">
-            Закладки: 0
-          </a>
-          <a href="#" class="toolbar-cart cart-with-items">
-            Корзина: 10
-          </a>
-          <a href="#" class="checkout-btn">
-            Оформить заказ
-          </a>          
-        </div>  
-      </div>
-      <div class="container">
-        <p>
+        <p class="header-description">
           Интернет-магазин <br>
           строительных материалов
           и инструментов для ремонта
@@ -128,7 +126,7 @@
       <h2 class="catalog-header">
         Перфораторы
       </h2>
-      <section class="catalog">
+      <section class="catalog clearfix">
         <div class="catalog-searchbar">
           <div class="searchbar-filter">
             Фильтр
@@ -415,30 +413,30 @@
                 В закладки
               </a>    
             </div> 
-          </article>
-          <nav class="catalog-nav">
-            <ul>
-              <li>
-                <a class="btn">
-                  1
-                </a>
-              </li>
-              <li>
-                <a href="#" class="btn">
-                  2
-                </a>
-              </li>
-              <li>
-                <a href="#" class="btn">
-                  3
-                </a>
-              </li>
-            </ul>
-            <a href="#" class="catalog-next-btn">
-              Следующая
-            </a>  
-          </nav>  
-        </div>    
+          </article>  
+        </div>
+        <nav class="catalog-nav">
+          <ul>
+            <li>
+              <a class="btn">
+                1
+              </a>
+            </li>
+            <li>
+              <a href="#" class="btn">
+                2
+              </a>
+            </li>
+            <li>
+              <a href="#" class="btn">
+                3
+              </a>
+            </li>
+          </ul>
+          <a href="#" class="catalog-next-btn">
+            Следующая
+          </a>  
+        </nav>    
       </section>
       <section class="about-goods">
         <h2>
@@ -517,7 +515,7 @@
         </nav>    
       </div>
       <div class="container contacts-footer">
-        <p>
+        <p class="contacts-copyright">
           Copyright, 2010-2016 Компания "Техномарт" 
           Все права защищены
         </p>
@@ -535,7 +533,7 @@
             </a>
           </li>
         </ul>
-        <p>
+        <p class="feedback-link">
           <span>
             Обратная связь:
           </span>
@@ -543,7 +541,7 @@
             mail@htmlacademy.ru
           </a>    
         </p>
-        <p>
+        <p class="authors">
           <span>
             Разработано -
           </span>
