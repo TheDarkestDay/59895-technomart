@@ -28,7 +28,7 @@ h3 {
 }
 
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Cuprum', sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -55,6 +55,10 @@ body {
   clear: both;
 }
 
+.site-header {
+  background-color: #f1f5f7;
+}
+
 .toolbar {
   background-color: #293449;
 }
@@ -73,6 +77,10 @@ body {
   box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
   margin-bottom: -3px;
   cursor: pointer;
+}
+
+.toolbar-logo:hover {
+  background-color: #ba2732
 }
 
 .search-form {
@@ -216,17 +224,103 @@ body {
 .header-description {
   width: 300px;
   float: left;
+  margin-top: 0;
   margin-right: 20px;
+  color: #ee3643;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 16px;
+  font-style: italic;
 }
 
 .header-contacts {
-  width: 301px;
+  width: 270px;
   float:left;
+  margin-right: 65px;
 }
 
-.user-buttons {
-  width: 300px;
-  float:right;
+.header-contacts a {
+  display: block;
+  padding-right: 50px;
+  padding-left: 70px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  border: 3px solid #ffffff;
+  color: #e9292a;
+  font-size: 21px;
+  text-decoration: none;
+  position: relative;
+}
+
+.header-contacts a::before {
+  content: '';
+  position: absolute;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 19px;
+  background-position: -5px -689px;
+  top: 12px;
+  left: 15px;
+}
+
+.header-contacts span {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #32425c;
+}
+
+
+.user-btn {
+  background-color: #ffffff;
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 21px;
+}
+
+.user-btn:hover {
+  color: #ee3643;
+}
+
+.login:hover::after {
+  opacity: 1;
+}
+
+.header-info .login {
+  padding-left: 50px;
+  position: relative;
+  float: left;
+}
+
+.signup {
+  float: right;
+}
+
+.header-info .login::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 17px;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  background-position: -5px -566px;
+  top: 14px;
+  left: 20px;
+  opacity: 0.3;
+}
+
+.header-info .login:hover::after {
+  opacity: 1;
+}
+
+.user-btn:active {
+  color: rgba(0,0,0,0.3);
 }
 
 .header-info {
