@@ -378,6 +378,34 @@ body {
   float: left;
 }
 
+.section-heading {
+  background-color: #f7f3ec;
+  padding: 24px 25px;
+}
+
+.section-heading h2 {
+  display: inline-block;
+  margin: 0;
+}
+
+.section-heading .btn {
+  float: right;
+  background-color: #ee3643;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 55px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.section-heading .btn:hover {
+  background-color: #ca2c37;
+}
+
+.section-heading .btn:active {
+  background-color: #ba2732;
+}
+
 .featured-goods-list {
   font-size: 0;
   margin-bottom: 24px;
