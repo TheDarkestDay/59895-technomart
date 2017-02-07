@@ -643,8 +643,64 @@ body {
 .featured-goods-item {
   width: 220px;
   display: inline-block;
+  vertical-align: top;
   margin-right: 20px;
   font-size: 1rem;
+  border: 1px solid #e5e5e5;
+  position: relative;
+}
+
+.featured-goods-item:hover {
+  box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
+}
+
+.featured-goods-item img {
+  width: 220px;
+  height: 159px;
+}
+
+.featured-goods-item h3 {
+  text-align: center;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.featured-goods-item .discounted-price {
+  display: block;
+  text-decoration: line-through;
+  text-align: center;
+  color: #999999;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.featured-goods-item .btn {
+  display: block;
+  background-color: #ee3643;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 4px 0;
+  width: 118px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  position: relative;
+}
+
+.featured-goods-item .btn::before {
+  content: '';
+  position: absolute;
+  background-color: #ee3643;
+  transform-origin: 50% 50%;
+  transform: rotate(45deg);
+  width: 23px;
+  height: 22px;
+  left: 106px;
+  top: 5px;
 }
 
 .featured-goods-item:nth-child(4) {
