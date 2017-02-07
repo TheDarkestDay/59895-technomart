@@ -371,10 +371,139 @@ body {
 .promotions-block {
   width: 300px;
   float: left;
+  padding: 25px 22px;
+  color: white;
+  position: relative;
+}
+
+.promotions-block span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.promotions-block a {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.1);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  width: 135px;
+  text-align: center;
+}
+
+.promotions-block a:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.promotions-block a:active {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.promotions-materials {
+  background-color: #f6b22d;
+}
+
+.promotions-materials::after {
+  content: '';
+  position: absolute;
+  right: 42px;
+  top: 31px;
+  width: 44px;
+  height: 65px;
+  background-position: -5px -1015px;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+}
+
+.new::before {
+  content: '';
+  position: absolute;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 59px;
+  background-position: -5px -620px;
+  right: 0;
+  top: 0;
+}
+
+.promotions-tools {
+  background-color: #4aafde;
+  margin-left: 20px;
+}
+
+.promotions-tools::after {
+  content: '';
+  position: absolute;
+  right: 20px;
+  top: 31px;
+  width: 75px;
+  height: 61px;
+  background-position: -5px -160px;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+}
+
+.promotions-machines {
+  background-color: #cc79d1;
+  margin-left: 20px;
+}
+
+.promotions-machines::after {
+  content: '';
+  position: absolute;
+  right: 30px;
+  top: 31px;
+  width: 78px;
+  height: 62px;
+  background-position: -5px -943px;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+}
+
+.promotions-discounts {
+  background-color: #85d179;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.promotions-discounts::after {
+  content: '';
+  position: absolute;
+  right: 40px;
+  top: 25px;
+  width: 59px;
+  height: 72px;
+  background-position: -5px -5px;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+}
+
+.promotions-delivery {
+  background-color: #f6b22d;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.promotions-delivery::after {
+  content: '';
+  position: absolute;
+  right: 30px;
+  top: 35px;
+  width: 78px;
+  height: 63px;
+  background-position: -5px -87px;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
 }
 
 .promotions-slider {
-  width: 621px;
+  width: 620px;
   float: left;
 }
 
@@ -393,7 +522,10 @@ body {
   background-color: #ee3643;
   text-decoration: none;
   color: #ffffff;
-  padding: 5px 55px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 253px;
+  text-align: center;
   font-size: 14px;
   text-transform: uppercase;
 }
