@@ -743,14 +743,117 @@ body {
   margin-bottom: 90px;
 }
 
+.services {
+  background-color: #f2f6f8;
+  padding-top: 58px;
+}
+
+.services h2 {
+  color: #000000;
+}
+
+.services-slider {
+  margin-top: 64px;
+}
+
 .services-slider > ul {
   width: 240px;
   float: left;
+  margin: 0;
+  padding: 0;
   margin-right: 80px;
+  list-style: none;
+  position: relative;
+}
+
+.services-slider ul:first-child::after {
+  content: '';
+  position: absolute;
+  background-image: url('../img/services-shadow.png');
+  width: 10px;
+  min-height: 272px;
+  right: -1px;
+  top: 0;
+  z-index: 2;
+}
+
+.slider-btn:hover {
+  background-color: #293449;
+}
+
+.slider-btn.active {
+  background-color: #ffffff;
+  color: #32425c;
+}
+
+.services-slider button {
+  background-color: #32425c;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  font-size: 21px;
+  line-height: 30px;
+  font-family: 'Cuprum', sans-serif;
+  width: 100%;
+  text-align: left;
+  box-shadow: inset 0 -1px 0 #293449;
 }
 
 .services-slide {
   width: 620px;
+  display: none;
+  background-repeat: no-repeat;
+  min-height: 261px;
+}
+
+.services-slide h3 {
+  margin: 0;
+  text-transform: uppercase;
+  color: #32425c;
+  font-size: 36px;
+  font-family: 'Cuprum', sans-serif;
+  margin-bottom: 24px;
+  font-weight: normal;
+  line-height: 30px
+}
+
+.delivery-slide {
+  background-image: url('../img/service-slider-1.jpg');
+  background-position: 152px 0px;
+}
+
+.warrancy-slide {
+  background-image: url('../img/service-slider-2.jpg');
+  background-position: 232px 0px;
+}
+
+.credit-slide {
+  background-image: url('../img/service-slider-3.jpg');
+  background-position: 155px 0px;
+}
+
+.current-services-slide {
+  display: block;
+}
+
+.credit-slide .btn {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #ee3643;
+  color: white;
+  text-decoration: none;
+  padding: 5px 44px;
+  margin-top: 19px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.credit-slide .btn:hover {
+  background-color: #ca2c37;
+}
+
+.credit-slide .btn:active {
+  background-color: #ba2732;;
 }
 
 .about {
