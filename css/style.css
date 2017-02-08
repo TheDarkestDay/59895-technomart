@@ -1064,29 +1064,109 @@ body {
   text-decoration: none;
 }
 
+.contacts-footer {
+  background-color: #293449;
+  padding-top: 10px;
+}
+
 .contacts-copyright {
   width: 300px;
   float: left;
   margin-right: 90px;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .social-links {
   width: 150px;
   float: left;
   margin-right: 100px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social-links .social-btn {
+  display: block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #212a3a;
+  position: relative;
+}
+
+.social-btn:hover {
+  background-color: #ee3643;
+}
+
+.social-btn::after {
+  content: '';
+  position: absolute;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+}
+
+.social-btn-vk::after {
+  width: 20px;
+  height: 12px;
+  top: 15px;
+  left: 9px;
+  background-position: -5px -921px;
+}
+
+.social-btn-fb::after {
+  width: 10px;
+  height: 18px;
+  top: 10px;
+  left: 15px;
+  background-position: -5px -439px;
+}
+
+.social-btn-inst::after {
+  width: 17px;
+  height: 17px;
+  top: 11px;
+  left: 12px;
+  background-position: -5px -489px;
 }
 
 .feedback-link {
   width: 140px;
   float: left;
   margin-right: 20px;
+  color: #ffffff;
+}
+
+.feedback-link a {
+  color: #ffd180;
+  text-decoration: none;
 }
 
 .authors {
   width: 140px;
   float: right;
+  color: #ffffff;
 }
 
+.authors a {
+  color: #ffd180;
+  text-decoration: none;
+}
+
+.feedback-link a:hover,
+.authors a:hover {
+  text-decoration: underline;
+}
+
+.feedback-link a:active,
+.authors a:active {
+  color: #ee3643;
+  text-decoration: none;
+}
 
 .modal-window {
   display: none;
