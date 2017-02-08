@@ -866,9 +866,94 @@ body {
   float: left;
 }
 
+.about-us h2 {
+  color: #000000;
+}
+
+.about-us p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.about-us ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.about-us li {
+  font-size: 18px;
+  color: #000000;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.about-us li::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fb565a;
+  width: 25px;
+  height: 2px;
+  margin-right: 10px;
+}
+
+.about-us .btn {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #ee3643;
+  color: white;
+  text-decoration: none;
+  padding: 5px 40px;
+  margin-top: 19px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.about-us .btn:hover {
+  background-color: #ca2c37;
+}
+
+.about-us .btn:active {
+  background-color: #ba2732;;
+}
+
 .contacts {
-  width: 320px;
+  width: 300px;
   float: right;
+}
+
+.contacts h2 {
+  color: #000000;
+}
+
+.contacts p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.contacts img {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.contacts .btn {
+  display: block;
+  background-color: #ee3643;
+  color: white;
+  text-decoration: none;
+  padding: 5px 0;
+  margin-top: 19px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contacts .btn:hover {
+  background-color: #ca2c37;
+}
+
+.contacts .btn:active {
+  background-color: #ba2732;;
 }
 
 .footer-logo {
