@@ -654,6 +654,10 @@ body {
   box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
 }
 
+.featured-goods-item:hover .item-hover-menu {
+  display: block;
+}
+
 .featured-goods-item img {
   width: 220px;
   height: 159px;
@@ -1192,6 +1196,78 @@ body {
   display: inline-block;
   margin-right: 20px;
   font-size: 1rem;
+}
+
+.item-hover-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  padding: 42px;
+  width: 100%;
+  height: 158px;
+}
+
+.item-hover-menu .buy-btn {
+  background-color: #63a63e;
+  color: white;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: inset 0 -3px 0 #367315;
+  text-align: center;
+  padding: 7px 0;
+  border-radius: 3px;
+  font-size: 14px;
+  position: relative;
+}
+
+.item-hover-menu .buy-btn::after {
+  content: '';
+  position: absolute;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  top: 10px;
+  left: 10px;
+  width: 17px;
+  height: 16px;
+  background-position: -5px -231px;
+  opacity: 0.3;
+}
+
+.item-hover-menu .buy-btn:hover {
+  background-color: #5fbb2d;
+}
+
+.item-hover-menu .buy-btn:hover::after {
+  opacity: 1;
+}
+
+.item-hover-menu .buy-btn:active {
+  background-color: #518534;
+}
+
+.item-hover-menu .bookmark-btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #32425c;
+  width: 100%;
+  margin-top: 7px;
+  padding: 7px 0;
+  border: 3px solid #63a63e;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.item-hover-menu .bookmark-btn:hover {
+  border-color: #32425c;
+}
+
+.item-hover-menu .bookmark-btn:active {
+  opacity: 0.3;
 }
 
 .catalog-item:nth-child(3n) {
