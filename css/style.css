@@ -96,7 +96,7 @@ body {
   height: 17px;
   background-image: url('../img/spritesheet.png');
   background-repeat: no-repeat;
-  background-position: -5px -799px;
+  background-position: -5px -801px;
   left: 20px;
   top: 12px;
   opacity: 0.3;
@@ -131,7 +131,7 @@ body {
 }
 
 .search-form input:focus + .search-icon {
-  background-position: -5px -826px;
+  background-position: -5px -828px;
   opacity: 1;
 }
 
@@ -266,7 +266,7 @@ body {
   background-repeat: no-repeat;
   width: 19px;
   height: 19px;
-  background-position: -5px -689px;
+  background-position: -5px -669px;
   top: 12px;
   left: 15px;
 }
@@ -321,11 +321,11 @@ body {
 .header-info .login::after {
   content: '';
   position: absolute;
-  width: 20px;
-  height: 17px;
   background-image: url('../img/spritesheet.png');
   background-repeat: no-repeat;
-  background-position: -5px -566px;
+  width: 20px;
+  height: 17px;
+  background-position: -5px -546px;
   top: 14px;
   left: 20px;
   opacity: 0.3;
@@ -431,7 +431,7 @@ body {
   top: 31px;
   width: 44px;
   height: 65px;
-  background-position: -5px -1015px;
+  background-position: -5px -1017px;
   background-image: url('../img/spritesheet.png');
   background-repeat: no-repeat;
 }
@@ -443,7 +443,7 @@ body {
   background-repeat: no-repeat;
   width: 60px;
   height: 59px;
-  background-position: -5px -620px;
+  background-position: -5px -600px;
   right: 0;
   top: 0;
 }
@@ -477,7 +477,7 @@ body {
   top: 31px;
   width: 78px;
   height: 62px;
-  background-position: -5px -943px;
+  background-position: -5px -945px;
   background-image: url('../img/spritesheet.png');
   background-repeat: no-repeat;
 }
@@ -571,14 +571,14 @@ body {
   left: 27px;
   width: 22px;
   height: 40px;
-  background-position: -5px -516px;
+  background-position: -5px -496px;
 }
 
 .promotions-slider .next-slide {
   right: 27px;
   width: 22px;
   height: 40px;
-  background-position: -5px -749px;
+  background-position: -5px -729px;
 }
 
 .slider-controls {
@@ -1136,7 +1136,7 @@ body {
   height: 12px;
   top: 15px;
   left: 9px;
-  background-position: -5px -921px;
+  background-position: -5px -923px;
 }
 
 .social-btn-fb::after {
@@ -1144,7 +1144,7 @@ body {
   height: 18px;
   top: 10px;
   left: 15px;
-  background-position: -5px -439px;
+  background-position: -5px -419px;
 }
 
 .social-btn-inst::after {
@@ -1152,7 +1152,7 @@ body {
   height: 17px;
   top: 11px;
   left: 12px;
-  background-position: -5px -489px;
+  background-position: -5px -469px;
 }
 
 .feedback-link {
@@ -1431,4 +1431,87 @@ body {
 .catalog-header {
   background-color: #f2f6f8;
   padding: 29px 30px;
+}
+
+.searchbar-filter {
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+  background-color: #f7f3ec;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.searchbar-sort > span {
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.searchbar-sort {
+  float: right;
+  width: 700px;
+  background-color: #f7f3ec;
+  padding: 6px 20px;
+  margin-bottom: 20px;
+}
+
+.searchbar-sort ul {
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  margin-left: 140px;
+}
+
+.searchbar-sort li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 60px;
+}
+
+.searchbar-sort .sort-option {
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  opacity: 0.3;
+  border-bottom: 1px dotted #ee3643;
+  text-decoration: none;
+  color: #000000;
+}
+
+.searchbar-sort li:last-of-type {
+  margin-right: 42px;
+}
+
+.searchbar-sort li:last-of-type .sort-option:hover {
+  opacity: 1;
+  border-bottom: 1px solid #ee3643;
+}
+
+.searchbar-sort .selected-option {
+  opacity: 1;
+  border-bottom: none;
+  color: #ee3643;
+}
+
+.searchbar-sort .sort-asc {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 10px;
+  background-position: -5px -419px;
+  transform-origin: 50% 50%;
+  transform: rotate(180deg);
+  margin-right: 20px;
+}
+
+.searchbar-sort .sort-desc {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 10px;
+  background-position: -5px -419px;
 }
