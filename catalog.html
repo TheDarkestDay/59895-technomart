@@ -168,17 +168,26 @@
         </div>  
         <div class="catalog-filter">
           <form>
-            <fieldset>
+            <fieldset class="price-widget">
               <legend>
                 Цена:
               </legend>  
               <input id="price" type="range">
-              <span class="price-value">
-                0
-              </span>
-              <span class="price-value">
-                30000
-              </span>
+              <div class="range-input">
+                <div class="range-bar">
+                </div>
+                <div class="range-fill">
+                </div>
+                <div class="range-min-control">
+                </div>
+                <div class="range-max-control">
+                </div>        
+              </div>  
+              <input type="number" class="price-value" value="0">
+              <span class="range-price-delim">
+                -
+              </span>  
+              <input type="number" class="price-value" value="30000">
             </fieldset>  
             <fieldset class="filter-manufacturers">
               <legend>

@@ -1272,6 +1272,80 @@ body {
   opacity: 0.3;
 }
 
+.price-widget input[type="number"] {
+  display: inline-block;
+  background-color: #f7f3ec;
+  border: none;
+  text-align: center;
+  width: 95px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 25px;
+}
+
+.range-price-delim {
+  margin-right: 9px;
+  margin-left: 9px;
+}
+
+.range-input {
+  background-color: #f7f3ec;
+  padding: 40px 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.range-bar {
+  background-color: #d7dcde;
+  height: 2px;
+  width: 100%;
+}
+
+.range-fill {
+  background-color: #00ca74;
+  width: 70%;
+  height: 2px;
+  position: absolute;
+  top: 40px;
+}
+
+.range-input .range-min-control {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 0 rgba(0, 1, 1, 0.14);
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  z-index: 2;
+  text-align: center;
+}
+
+.range-max-control::before,
+.range-min-control::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #ababab;
+  top: 8px;
+  left: 8px;
+}
+
+.range-input .range-max-control {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 0 rgba(0, 1, 1, 0.14);
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  right: 30px;
+  z-index: 2;
+  text-align: center;
+}
+
 .filter-manufacturers label::before{
   content: '';
   position: absolute;
