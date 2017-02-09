@@ -1201,6 +1201,108 @@ body {
   margin-right: 20px;
 }
 
+.catalog-filter fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-filter fieldset:not(:last-of-type) {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.catalog-filter legend {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.catalog-filter ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.catalog-filter input {
+  display: none;
+}
+
+.catalog-filter label {
+  display: block;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding-left: 35px;
+  position: relative;
+}
+
+.catalog-filter button {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  padding: 11px 40px;
+  margin-top: 40px;
+}
+
+.catalog-filter button:hover {
+  border-color: #bdc6ca;
+}
+
+.catalog-filter button:active {
+  border-color: #ee3643;
+  outline: none;
+}
+
+.catalog-filter .filter-manufacturers {
+  padding-bottom: 21px;
+}
+
+.catalog-filter label:hover::before {
+  opacity: 0.3;
+}
+
+.filter-manufacturers label::before{
+  content: '';
+  position: absolute;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 23px;
+  background-position: -5px -283px;
+  left: 0;
+  cursor: pointer;
+}
+
+.filter-manufacturers input:checked + label::before {
+  width: 27px;
+  height: 23px;
+  background-position: -5px -316px;
+}
+
+.filter-power label::before {
+  content: '';
+  position: absolute;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  background-position: -5px -349px;
+  left: 0;
+  cursor: pointer;
+}
+
+.filter-power input:checked + label::before {
+  width: 25px;
+  height: 25px;
+  background-position: -5px -384px;
+}
+
 .catalog-items-list {
   width: 700px;
   float: right;
@@ -1527,4 +1629,8 @@ body {
 .searchbar-sort .active-sort {
   background-position: -5px -875px;
   opacity: 1;
+}
+
+.about-goods {
+  background-color: #f2f6f8;
 }
