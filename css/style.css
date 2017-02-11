@@ -71,7 +71,7 @@ body {
   background-color: #ee3643;
   text-align: center;
   padding-top: 11px;
-  padding-bottom: 11px;
+  padding-bottom: 10px;
   font-size: 24px;
   font-family: 'Cuprum', sans-serif;
   box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
@@ -97,7 +97,7 @@ body {
   background-image: url('../img/spritesheet.png');
   background-repeat: no-repeat;
   background-position: -5px -801px;
-  left: 20px;
+  left: 17px;
   top: 12px;
   opacity: 0.3;
   z-index: 2;
@@ -108,8 +108,8 @@ body {
   color: white;
   position: absolute;
   font-family: 'Cuprum', sans-serif;
-  left: 50px;
-  top: 10px;
+  left: 48px;
+  top: 9px;
 }
 
 .search-form:hover .search-icon {
@@ -143,8 +143,8 @@ body {
   font-family: 'Cuprum', sans-serif;
   font-size: 17px;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 14px;
   padding-top: 9px;
   padding-bottom: 9px;
   position: relative;
@@ -159,7 +159,7 @@ body {
     background-repeat: no-repeat;
     background-position: -5px -257px;
     opacity: 0.3;
-    left: 10px;
+    left: 16px;
     top: 12px;
 }
 
@@ -176,9 +176,9 @@ body {
   font-size: 17px;
   text-align: center;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 3px;
   padding-top: 9px;
-  padding-bottom: 10px;
+  padding-bottom: 9px;
   position: relative;
 }
 
@@ -191,7 +191,7 @@ body {
   background-repeat: no-repeat;
   background-position: -5px -231px;
   opacity: 0.3;
-  left: 8px;
+  left: 15px;
   top: 12px;
 }
 
@@ -212,7 +212,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 9px;
-  padding-bottom: 10px;
+  padding-bottom: 9px;
   font-family: 'Cuprum', sans-serif;
   font-size: 17px;
 }
