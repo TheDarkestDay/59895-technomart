@@ -781,7 +781,12 @@ body {
 
 .services {
   background-color: #f2f6f8;
-  padding-top: 58px;
+  padding-top: 42px;
+}
+
+.services p {
+  font-size: 13px;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .services h2 {
@@ -789,7 +794,7 @@ body {
 }
 
 .services-slider {
-  margin-top: 64px;
+  margin-top: 71px;
 }
 
 .services-slider > ul {
@@ -849,7 +854,7 @@ body {
   color: #32425c;
   font-size: 36px;
   font-family: 'Cuprum', sans-serif;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   font-weight: normal;
   line-height: 30px
 }
@@ -894,7 +899,7 @@ body {
 }
 
 .about {
-  padding-top: 80px;
+  padding-top: 64px;
   padding-bottom: 80px;
 }
 
@@ -909,6 +914,7 @@ body {
 
 .about-us p {
   font-family: 'PT Sans', sans-serif;
+  margin-top: 25px;
 }
 
 .about-us ul {
@@ -922,7 +928,7 @@ body {
   font-size: 18px;
   color: #000000;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .about-us li::before {
@@ -932,7 +938,7 @@ body {
   background-color: #fb565a;
   width: 25px;
   height: 2px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .about-us .btn {
@@ -941,8 +947,8 @@ body {
   background-color: #ee3643;
   color: white;
   text-decoration: none;
-  padding: 5px 40px;
-  margin-top: 19px;
+  padding: 6px 45px;
+  margin-top: 18px;
   border-radius: 3px;
   text-transform: uppercase;
 }
@@ -971,6 +977,7 @@ body {
 .contacts img {
   display: block;
   margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 .contacts .btn {
@@ -978,8 +985,7 @@ body {
   background-color: #ee3643;
   color: white;
   text-decoration: none;
-  padding: 5px 0;
-  margin-top: 19px;
+  padding: 6px 0;
   border-radius: 3px;
   text-transform: uppercase;
   text-align: center;
