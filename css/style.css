@@ -176,7 +176,7 @@ body {
   font-size: 17px;
   text-align: center;
   padding-left: 20px;
-  padding-right: 3px;
+  padding-right: 2px;
   padding-top: 9px;
   padding-bottom: 9px;
   position: relative;
@@ -226,7 +226,7 @@ body {
 }
 
 .toolbar {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .header-description {
@@ -235,10 +235,11 @@ body {
   margin-top: 0;
   margin-right: 20px;
   color: #ee3643;
-  padding-left: 55px;
-  padding-right: 55px;
-  font-size: 16px;
+  padding-left: 53px;
+  padding-right: 35px;
+  font-size: 15px;
   font-style: italic;
+  line-height: 23px;
 }
 
 .header-contacts {
@@ -248,13 +249,16 @@ body {
 
 .header-contacts a {
   display: block;
-  padding-right: 50px;
-  padding-left: 70px;
+  padding-right: 20px;
+  padding-left: 71px;
   padding-top: 8px;
-  padding-bottom: 7px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
   border: 3px solid #ffffff;
   color: #e9292a;
   font-size: 21px;
+  line-height: 18px;
+  text-align: left;
   text-decoration: none;
   position: relative;
 }
@@ -267,8 +271,8 @@ body {
   width: 19px;
   height: 19px;
   background-position: -5px -669px;
-  top: 12px;
-  left: 15px;
+  top: 8px;
+  left: 12px;
 }
 
 .header-contacts span {
@@ -290,14 +294,14 @@ body {
   color: #000000;
   text-decoration: none;
   padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 10px;
+  padding-right: 24px;
+  padding-top: 8px;
   padding-bottom: 11px;
   font-size: 21px;
 }
 
 .user-btn:first-child {
-  margin-left: 15px;
+  margin-left: 18px;
 }
 
 .user-btn:hover {
@@ -309,7 +313,7 @@ body {
 }
 
 .header-info .login {
-  padding-left: 50px;
+  padding-left: 49px;
   position: relative;
   float: left;
 }
@@ -326,8 +330,8 @@ body {
   width: 20px;
   height: 17px;
   background-position: -5px -546px;
-  top: 14px;
-  left: 20px;
+  top: 12px;
+  left: 15px;
   opacity: 0.3;
 }
 
