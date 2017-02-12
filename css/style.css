@@ -544,7 +544,6 @@ body {
 .promotions-slider {
   width: 620px;
   float: left;
-  padding: 22px 25px;
   margin-top: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -560,6 +559,7 @@ body {
 
 .slider-slide {
   display: none;
+  padding: 24px 25px;
 }
 
 .slider-slide .slide-heading {
@@ -580,6 +580,14 @@ body {
   margin-top: 5px;
 }
 
+.slide-perfs {
+  background-image: url('../img/promo-slider-1.jpg');
+}
+
+.slide-drills {
+  background-image: url('../img/promo-slider-2.jpg');
+}
+
 .promotions-slider .prev-slide,
 .promotions-slider .next-slide {
   position: absolute;
@@ -588,6 +596,7 @@ body {
   background-color: transparent;
   background-image: url('../img/spritesheet.png');
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .promotions-slider .prev-slide {
@@ -634,14 +643,6 @@ body {
 
 .current-slide {
   display: block;
-}
-
-.slide-1 {
-  background-image: url('../img/promo-slider-1.jpg');
-}
-
-.slide-2 {
-  background-image: url('../img/promo-slider-2.jpg');
 }
 
 .section-heading {
