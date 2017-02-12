@@ -70,6 +70,7 @@ body {
   text-transform: uppercase;
   background-color: #ee3643;
   text-align: center;
+  text-decoration: none;
   padding-top: 11px;
   padding-bottom: 10px;
   font-size: 24px;
@@ -1016,6 +1017,7 @@ body {
   text-transform: uppercase;
   background-color: #ee3643;
   text-align: center;
+  text-decoration: none;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 30px;
@@ -1279,7 +1281,7 @@ body {
   text-transform: uppercase;
   font-family: 'PT Sans', sans-serif;
   padding: 11px 40px;
-  margin-top: 40px;
+  margin-top: 62px;
 }
 
 .catalog-filter button:hover {
@@ -1289,10 +1291,6 @@ body {
 .catalog-filter button:active {
   border-color: #ee3643;
   outline: none;
-}
-
-.catalog-filter .filter-manufacturers {
-  padding-bottom: 21px;
 }
 
 .catalog-filter label:hover {
@@ -1554,8 +1552,8 @@ body {
 }
 
 .about-goods {
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 38px;
+  padding-bottom: 57px;
 }
 
 .about-goods {
