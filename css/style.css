@@ -765,15 +765,20 @@ body {
 
 .featured-companies-item {
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  vertical-align: middle;
   width: 220px;
   margin-right: 20px;
   margin-top: 20px;
   font-size: 1rem;
   min-height: 145px;
-  vertical-align: middle;
   border: 1px solid #e5e5e5;
+}
+
+.featured-companies a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .featured-companies-item:hover {
