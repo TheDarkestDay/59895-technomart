@@ -1587,7 +1587,6 @@ body {
 
 .user-profile {
   background: #ffffff;
-  padding-left: 48px;
   padding-right: 50px;
   padding-top: 11px;
   padding-bottom: 13px;
@@ -1598,6 +1597,13 @@ body {
 }
 
 .user-profile .profile-link {
+  text-decoration: none;
+  color: #000000;
+  padding-left: 48px;
+}
+
+.user-profile .profile-link::before {
+  content: '';
   background-image: url('../img/spritesheet.png');
   background-repeat: no-repeat;
   width: 20px;
@@ -1619,12 +1625,16 @@ body {
   opacity: 0.3;
 }
 
-.profile-link:hover,
+.profile-link:hover::before,
 .logout-btn:hover {
   opacity: 1;
 }
 
-.profile-link:active,
+.profile-link:active {
+  color: rgba(0,0,0, 0.3);
+}
+
+.profile-link:active::before,
 .logout-btn:active {
   opacity: 0.3;
 }
