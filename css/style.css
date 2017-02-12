@@ -168,6 +168,15 @@ body {
   opacity: 1;
 }
 
+.toolbar-bookmarks:active {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.toolbar-bookmarks:active::before {
+  opacity: 0.5;
+}
+
 .toolbar-cart {
   width: 150px;
   float: left;
@@ -198,6 +207,15 @@ body {
 
 .toolbar-cart:hover::before {
   opacity: 1;
+}
+
+.toolbar-cart:active {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.toolbar-cart:active::before {
+  opacity: 0.5;
 }
 
 .full-cart {
@@ -350,6 +368,7 @@ body {
 
 .main-nav {
   margin-bottom: 60px;
+  border-bottom: 5px solid #293449;
 }
 
 .main-nav ul {
@@ -365,7 +384,7 @@ body {
 
 .main-nav a {
   display: block;
-  padding: 21px 31px;
+  padding: 19px 32px;
   text-decoration: none;
   color: white;
   font-size: 17px;
