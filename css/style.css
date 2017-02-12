@@ -1779,7 +1779,7 @@ body {
   margin-right: 42px;
 }
 
-.searchbar-sort li:last-of-type .sort-option:hover {
+.searchbar-sort .sort-option:not(.selected-option):hover {
   opacity: 1;
   border-bottom: 1px solid #ee3643;
 }
