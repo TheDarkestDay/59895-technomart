@@ -721,7 +721,7 @@ body {
   margin-left: auto;
   margin-right: 54px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   text-transform: uppercase;
   border-radius: 3px;
   position: relative;
@@ -1230,6 +1230,7 @@ body {
   width: 220px;
   float: left;
   margin-right: 20px;
+  margin-top: -8px;
 }
 
 .catalog-filter fieldset {
@@ -1249,7 +1250,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   line-height: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .catalog-filter ul {
@@ -1267,7 +1268,7 @@ body {
   text-transform: uppercase;
   font-family: 'PT Sans', sans-serif;
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
   padding-left: 35px;
   position: relative;
 }
@@ -1320,7 +1321,7 @@ body {
 
 .range-input {
   background-color: #f7f3ec;
-  padding: 40px 20px;
+  padding: 38px 20px;
   position: relative;
   margin-bottom: 10px;
 }
@@ -1349,6 +1350,7 @@ body {
   top: 30px;
   z-index: 2;
   text-align: center;
+  cursor: pointer;
 }
 
 .range-max-control::before,
@@ -1374,6 +1376,7 @@ body {
   right: 30px;
   z-index: 2;
   text-align: center;
+  cursor: pointer;
 }
 
 .filter-manufacturers label::before{
@@ -1491,7 +1494,7 @@ body {
 }
 
 .catalog-item {
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 .catalog-item:nth-child(3n) {
@@ -1518,7 +1521,7 @@ body {
 .catalog-nav li {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .catalog-nav a.active {
@@ -1532,7 +1535,7 @@ body {
   text-decoration: none;
   color: #000000;
   border: 1px solid #e5e5e5;
-  padding: 6px 15px;
+  padding: 6px 17px;
   border-radius: 4px;
   text-transform: uppercase;
   text-align: center;
@@ -1562,14 +1565,14 @@ body {
 
 .user-profile {
   background: #ffffff;
-  padding-left: 50px;
+  padding-left: 48px;
   padding-right: 50px;
-  padding-top: 13px;
+  padding-top: 11px;
   padding-bottom: 13px;
   font-size: 21px;
   line-height: 18px;
   position: relative;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 .user-profile .profile-link {
@@ -1610,7 +1613,7 @@ body {
 }
 
 .user-menu-item:first-of-type {
-  margin-left: 15px;
+  margin-left: 20px;
   margin-right: 30px;
   position: relative;
 }
@@ -1636,7 +1639,7 @@ body {
 }
 
 .breadcrumbs {
-  margin-top: 23px;
+  margin-top: 18px;
 }
 
 .breadcrumbs ul {
@@ -1684,13 +1687,15 @@ body {
   width: 15px;
   height: 12px;
   background-position: -5px -447px;
-  margin-right: 15px;
+  margin-right: 9px;
   padding: 9px 0;
 }
 
 .catalog-header {
   background-color: #f2f6f8;
   padding: 29px 30px;
+  margin-top: 18px;
+  margin-bottom: 21px;
 }
 
 .searchbar-filter {
