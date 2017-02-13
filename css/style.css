@@ -1837,7 +1837,7 @@ body {
 }
 
 .modal-window {
-  top: -200px;
+  top: -100%;
   width: 620px;
   margin-left: auto;
   margin-right: auto;
@@ -1846,6 +1846,7 @@ body {
   box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
   border-top: 7px solid #ee3643;
   position: fixed;
+  z-index: 4;
   transition: top 0.2s;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1900,7 +1901,7 @@ body {
 }
 
 .modal-window .form-group-inline:first-of-type {
-  margin-right: 20px;
+  margin-right: 16px;
 }
 
 .modal-content {
