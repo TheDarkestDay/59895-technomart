@@ -1022,7 +1022,7 @@ body {
 }
 
 .contacts .btn:active {
-  background-color: #ba2732;;
+  background-color: #ba2732;
 }
 
 .site-footer {
@@ -1247,10 +1247,6 @@ body {
 .authors a:active {
   color: #ee3643;
   text-decoration: none;
-}
-
-.modal-window {
-  display: none;
 }
 
 .catalog-filter {
@@ -1828,4 +1824,110 @@ body {
 
 .about-goods {
   background-color: #f2f6f8;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  display: none;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.modal-window {
+  padding-bottom: 0px;
+  background-color: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+  border-top: 7px solid #ee3643;
+  position: relative;
+}
+
+.modal-window .close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-image: url('../img/spritesheet.png');
+  width: 21px;
+  height: 21px;
+  background-position: -5px -698px;
+}
+
+.modal-window form {
+  padding-left: 3px;
+  padding-top: 10px;
+}
+
+.modal-window label {
+  display: block;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+
+.modal-window input,
+.modal-window textarea {
+  display: block;
+  width: 100%;
+  border: 2px solid #d7dcde;
+  border-radius: 3px;
+  padding: 8px 16px;
+}
+
+.modal-window textarea {
+  min-height: 114px;
+}
+
+.modal-window .form-group-inline {
+  width: 220px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 13px;
+}
+
+.modal-window p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.modal-window .form-group-inline:first-of-type {
+  margin-right: 20px;
+}
+
+.modal-content {
+  padding: 37px 80px;
+}
+
+.modal-footer {
+  padding: 37px 80px;
+  background-color: #f1f1f1;
+}
+
+.modal-footer button {
+  display: block;
+  width: 100%;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: 'Cuprum', sans-serif;
+  line-height: 18px;
+}
+
+.modal-footer button:hover {
+  background-color: #ca2c37;
+}
+
+.modal-footer button:active {
+  background-color: #ba2732;
+}
+
+.opened {
+  display: flex;
 }
