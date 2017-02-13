@@ -166,14 +166,20 @@
     background-position: -5px -945px;
 }
 
+.sprite-ok {
+    width: 39px;
+    height: 30px;
+    background-position: -5px -1017px;
+}
+
 .sprite-paint-can {
     width: 44px;
     height: 65px;
-    background-position: -5px -1017px;
+    background-position: -5px -1057px;
 }
 
 .sprite-services-shadow {
     width: 10px;
     height: 272px;
-    background-position: -5px -1092px;
+    background-position: -5px -1132px;
 }

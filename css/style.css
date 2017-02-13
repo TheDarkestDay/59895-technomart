@@ -454,7 +454,7 @@ body {
   top: 31px;
   width: 44px;
   height: 65px;
-  background-position: -5px -1017px;
+  background-position: -5px -1057px;
   background-image: url('../img/spritesheet.png');
   background-repeat: no-repeat;
 }
@@ -1925,11 +1925,15 @@ body {
   margin-right: 34px;
 }
 
-.checkmark::after,
-.checkmark::before {
+.checkmark::after{
   content: '';
   position: absolute;
-  background-color: white;
+  width: 39px;
+  height: 30px;
+  background-position: -5px -1017px;
+  background-image: url('../img/spritesheet.png');
+  top: 18px;
+  left: 15px;
 }
 
 .modal-footer {
