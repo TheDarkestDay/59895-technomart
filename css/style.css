@@ -848,7 +848,7 @@ body {
   background-image: url('../img/spritesheet.png');
   width: 10px;
   height: 272px;
-  background-position: -5px -1092px;
+  background-position: -5px -1132px;
   right: -1px;
   top: 0;
   z-index: 2;
@@ -896,17 +896,17 @@ body {
 
 .delivery-slide {
   background-image: url('../img/service-slider-1.jpg');
-  background-position: 152px 0px;
+  background-position: 152px 25px;
 }
 
 .warrancy-slide {
   background-image: url('../img/service-slider-2.jpg');
-  background-position: 232px 0px;
+  background-position: 232px 25px;
 }
 
 .credit-slide {
   background-image: url('../img/service-slider-3.jpg');
-  background-position: 155px 0px;
+  background-position: 155px 25px;
 }
 
 .current-services-slide {
@@ -935,7 +935,7 @@ body {
 
 .about {
   padding-top: 64px;
-  padding-bottom: 86px;
+  padding-bottom: 87px;
 }
 
 .about-us {
@@ -982,7 +982,7 @@ body {
   background-color: #ee3643;
   color: white;
   text-decoration: none;
-  padding: 6px 45px;
+  padding: 7px 45px;
   margin-top: 18px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -1020,7 +1020,7 @@ body {
   background-color: #ee3643;
   color: white;
   text-decoration: none;
-  padding: 6px 0;
+  padding: 7px 0;
   border-radius: 3px;
   text-transform: uppercase;
   text-align: center;
@@ -1228,6 +1228,7 @@ body {
   margin-right: 50px;
   color: #ffffff;
   line-height: 18px;
+  font-size: 16px;
 }
 
 .feedback-link a {
@@ -1237,9 +1238,10 @@ body {
 
 .authors {
   width: 100px;
-  float: right;
+  float: left;
   color: #ffffff;
   line-height: 18px;
+  font-size: 16px;
 }
 
 .authors a {
