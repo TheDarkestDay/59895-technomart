@@ -2011,9 +2011,11 @@ body {
   line-height: 18px;
 }
 
-/*.opened {
-  display: block;
-} */
+.modal-window.map {
+  width: 940px;
+  height: 446px;
+  padding: 0;
+}
 
 .opened {
   top: 50%;

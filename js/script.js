@@ -1,14 +1,25 @@
 
 var purchaseBtns = document.querySelectorAll('.buy-btn'),
     modal = document.querySelector('.modal-window'),
+    map = document.querySelector('.map'),
     closeModalBtns = document.querySelectorAll('.close-btn'),
     writeUs = document.querySelector('.contacts .btn'),
     serviceSlides = document.querySelectorAll('.services-slide'),
-    serviceTriggers = document.querySelectorAll('.slider-menu button');
+    serviceTriggers = document.querySelectorAll('.slider-menu button'),
+    mapLink = document.querySelector('.contacts-map-link');
 
 function toggleModal(evt) {
   evt.preventDefault();
+  if (this.classList.contains('close-map')) {
+    map.classList.remove('opened');
+    return ;
+  } 
   modal.classList.toggle('opened');
+}
+
+function showMap(evt) {
+  evt.preventDefault();
+  map.classList.add('opened');
 }
 
 function changeSlide() {
@@ -24,6 +35,8 @@ function changeSlide() {
 }
 
 if (writeUs) writeUs.addEventListener('click', toggleModal);
+
+if (mapLink) mapLink.addEventListener('click', showMap);
 
 if (serviceTriggers.length) {
   Array.prototype.forEach.call(serviceTriggers, function(btn) {
