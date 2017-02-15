@@ -716,7 +716,7 @@ body {
 .featured-goods-item img {
   width: 220px;
   height: 159px;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 .featured-goods-item h3 {
@@ -751,7 +751,7 @@ body {
   margin-left: auto;
   margin-right: 54px;
   margin-top: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   border-radius: 3px;
   position: relative;
@@ -1287,7 +1287,7 @@ body {
 
 .catalog-filter fieldset:not(:last-of-type) {
   border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .catalog-filter legend {
@@ -1296,7 +1296,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   line-height: 30px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .catalog-filter ul {
@@ -1324,8 +1324,8 @@ body {
   border: 1px solid #e5e5e5;
   text-transform: uppercase;
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-  padding: 11px 40px;
-  margin-top: 62px;
+  padding: 11px 38px;
+  margin-top: 56px;
 }
 
 .catalog-filter button:hover {
@@ -1345,15 +1345,16 @@ body {
   opacity: 0.3;
 }
 
-.price-widget input[type="number"] {
+.price-widget input[type="text"] {
   display: inline-block;
   background-color: #f7f3ec;
   border: none;
   text-align: center;
+  font-size: 16px;
   width: 95px;
   padding-top: 12px;
   padding-bottom: 12px;
-  margin-bottom: 25px;
+  margin-bottom: 23px;
 }
 
 .range-price-delim {
@@ -1365,7 +1366,7 @@ body {
   background-color: #f7f3ec;
   padding: 38px 20px;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .range-bar {
@@ -1379,7 +1380,7 @@ body {
   width: 70%;
   height: 2px;
   position: absolute;
-  top: 40px;
+  top: 38px;
 }
 
 .range-input .range-min-control {
@@ -1415,7 +1416,7 @@ body {
   width: 20px;
   height: 20px;
   top: 30px;
-  right: 30px;
+  right: 40px;
   z-index: 2;
   text-align: center;
   cursor: pointer;
@@ -1536,7 +1537,7 @@ body {
 }
 
 .catalog-item {
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 
 .catalog-item:nth-child(3n) {
@@ -1817,10 +1818,6 @@ body {
   width: 11px;
   height: 10px;
   background-position: -5px -855px;
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
   margin-right: 19px;
   opacity: 0.3;
 }
@@ -1833,6 +1830,10 @@ body {
   width: 11px;
   height: 10px;
   background-position: -5px -855px;
+    -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
   opacity: 0.3;
 }
 
