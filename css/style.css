@@ -1127,7 +1127,7 @@ body {
 .footer-lower-nav li {
   display: inline-block;
   vertical-align: top;
-  margin-right: 56px;
+  margin-right: 55px;
 }
 
 .footer-lower-nav li:nth-of-type(4n) {
@@ -1764,6 +1764,7 @@ body {
   margin: 0;
   display: inline-block;
   margin-left: 140px;
+  padding-left: 0px;
 }
 
 .searchbar-sort li {
@@ -1806,7 +1807,7 @@ body {
   background-position: -5px -855px;
   transform-origin: 50% 50%;
   transform: rotate(180deg);
-  margin-right: 20px;
+  margin-right: 19px;
   opacity: 0.3;
 }
 
