@@ -1,25 +1,28 @@
 
 var purchaseBtns = document.querySelectorAll('.buy-btn'),
-    modal = document.querySelector('.modal-window'),
-    map = document.querySelector('.map'),
     closeModalBtns = document.querySelectorAll('.close-btn'),
-    writeUs = document.querySelector('.contacts .btn'),
+    writeUsBtn = document.querySelector('.contacts .btn'),
     serviceSlides = document.querySelectorAll('.services-slide'),
     serviceTriggers = document.querySelectorAll('.slider-menu button'),
-    mapLink = document.querySelector('.contacts-map-link');
+    mapLink = document.querySelector('.contacts-map-link'),
+    currentModal = false,
+    modals = {
+      'write_us': document.querySelector('.write-us'),
+      'map': document.querySelector('.map'),
+      'add_to_cart': document.querySelector('.added-to-cart')
+    };
 
-function toggleModal(evt) {
+function openModal(evt) {
   evt.preventDefault();
-  if (this.classList.contains('close-map')) {
-    map.classList.remove('opened');
-    return ;
-  } 
-  modal.classList.toggle('opened');
+  if (currentModal && currentModal.classList.contains('opened')) currentModal.classList.remove('opened');
+  currentModal = modals[this.dataset.modal];
+  currentModal.classList.add('opened');
 }
 
-function showMap(evt) {
+function closeModal(evt) {
   evt.preventDefault();
-  map.classList.add('opened');
+  currentModal.classList.remove('opened');
+  currentModal = false
 }
 
 function changeSlide() {
@@ -34,9 +37,9 @@ function changeSlide() {
   serviceSlides[parseInt(this.dataset.index)].classList.add('current-services-slide');
 }
 
-if (writeUs) writeUs.addEventListener('click', toggleModal);
+if (writeUsBtn) writeUsBtn.addEventListener('click', openModal);
 
-if (mapLink) mapLink.addEventListener('click', showMap);
+if (mapLink) mapLink.addEventListener('click', openModal);
 
 if (serviceTriggers.length) {
   Array.prototype.forEach.call(serviceTriggers, function(btn) {
@@ -45,9 +48,9 @@ if (serviceTriggers.length) {
 }
 
 Array.prototype.forEach.call(purchaseBtns, function(btn) {
-  btn.addEventListener('click', toggleModal);
+  btn.addEventListener('click', openModal);
 });
 
 Array.prototype.forEach.call(closeModalBtns, function(btn) {
-  btn.addEventListener('click', toggleModal);
+  btn.addEventListener('click', closeModal);
 });

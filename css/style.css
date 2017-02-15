@@ -761,8 +761,10 @@ body {
   content: '';
   position: absolute;
   background-color: #ee3643;
-  transform-origin: 50% 50%;
-  transform: rotate(45deg);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   width: 25px;
   height: 25px;
   left: 109px;
@@ -774,6 +776,8 @@ body {
 }
 
 .featured-companies-item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle;
   width: 220px;
@@ -785,10 +789,18 @@ body {
 }
 
 .featured-companies a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .featured-companies-item:hover {
@@ -1805,8 +1817,10 @@ body {
   width: 11px;
   height: 10px;
   background-position: -5px -855px;
-  transform-origin: 50% 50%;
-  transform: rotate(180deg);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
   margin-right: 19px;
   opacity: 0.3;
 }
@@ -1853,9 +1867,11 @@ body {
   border-top: 7px solid #ee3643;
   position: fixed;
   z-index: 4;
+  -webkit-transition: top 0.2s;
   transition: top 0.2s;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .modal-window .close-btn {
@@ -2016,6 +2032,7 @@ body {
   width: 940px;
   height: 446px;
   padding: 0;
+  background-image: url('../img/big_map.jpg');
 }
 
 .opened {
