@@ -842,6 +842,7 @@ body {
 
 .services-slider {
   margin-top: 71px;
+  min-height: 274px;
 }
 
 .services-slider > ul {
