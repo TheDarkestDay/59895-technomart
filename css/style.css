@@ -836,6 +836,10 @@ body {
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
+.services-intro {
+  width: 400px;
+}
+
 .services h2 {
   color: #000000;
 }
@@ -907,6 +911,14 @@ body {
   line-height: 30px
 }
 
+.delivery-slide p {
+  width: 275px;
+}
+
+.warrancy-slide p {
+  width: 375px;
+}
+
 .delivery-slide {
   background-image: url('../img/service-slider-1.jpg');
   background-position: 152px 25px;
@@ -965,6 +977,10 @@ body {
   margin-top: 25px;
 }
 
+.about-us p:nth-of-type(2) {
+  width: 390px;
+}
+
 .about-us ul {
   list-style: none;
   padding: 0;
@@ -1020,6 +1036,7 @@ body {
 
 .contacts p {
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  width: 180px;
 }
 
 .contacts img {
@@ -1115,7 +1132,7 @@ body {
 }
 
 .footer-contacts {
-  width: 380px;
+  width: 345px;
   float: left;
   margin-right: 20px;
   color: white;
