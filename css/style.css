@@ -627,11 +627,6 @@ input[name="slide-nav"]:checked + label::before {
   margin-right: 10px;
 }
 
-.promotions-slider .next-slide:hover,
-.promotions-slider .prev-slide:hover {
-  opacity: 0.75;
-}
-
 .promotions-slider .prev-slide {
   left: 27px;
   width: 22px;
